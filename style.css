@@ -1,0 +1,20 @@
+body{
+    background-color: #B0C4DE	;
+}
+.main{
+    background-color: white;
+    margin: 150px 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1,h2,h3,h4,p{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+p{
+    color: silver;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+}
