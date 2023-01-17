@@ -1,9 +1,13 @@
 body{
-    background-color: #B0C4DE	;
+    background-color: #B0C4DE;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
 }
 .main{
+    max-width: 320px;
     background-color: white;
-    margin: 150px 600px;
+    /* margin: 150px 600px; */
     padding: 20px;
     border-radius: 10px;
 }
@@ -12,7 +16,7 @@ h1,h2,h3,h4,p{
     font-family: 'Fira Sans', sans-serif;
 }
 p{
-    color: silver;
+    color: hsl(220deg, 15%, 55%);
 }
 img{
     border-radius: 10px;
